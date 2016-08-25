@@ -40,6 +40,7 @@ GEM
     arel (6.0.3)
     autoprefixer-rails (6.4.0.3)
       execjs
+    babosa (1.0.2)
     bcrypt (3.1.11)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
@@ -69,6 +70,8 @@ GEM
       warden (~> 1.2.3)
     erubis (2.7.0)
     execjs (2.7.0)
+    friendly_id (5.1.0)
+      activerecord (>= 4.0.0)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     haml (4.0.7)
@@ -178,10 +181,12 @@ PLATFORMS
 
 DEPENDENCIES
   acts_as_votable (~> 0.10.0)
+  babosa
   bootstrap-sass (~> 3.3, >= 3.3.7)
   byebug
   coffee-rails (~> 4.1.0)
   devise (~> 4.2)
+  friendly_id (~> 5.1)
   haml (~> 4.0, >= 4.0.7)
   jbuilder (~> 2.0)
   jquery-rails

@@ -22,6 +22,8 @@ gem 'simple_form', '~> 3.2', '>= 3.2.1'
 gem 'paperclip', '~> 5.1'
 gem 'devise', '~> 4.2'
 gem 'acts_as_votable', '~> 0.10.0'
+gem 'friendly_id', '~> 5.1'
+gem "babosa"
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
