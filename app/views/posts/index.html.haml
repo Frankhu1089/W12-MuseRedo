@@ -3,6 +3,9 @@
   %h2=link_to post.title, post
   %p
     Created at
+  %p
+    = post.comments.count
+    Comments
 
 
 =link_to "New Post", new_post_path
