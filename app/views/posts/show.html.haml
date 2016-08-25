@@ -1,8 +1,10 @@
-%h2= @post.title
+%h1= @post.title
 %p= @post.created_at
 %p= link_to @post.link, @post.link
 %p= @post.description
-
+%p
+  Created By
+  = @post.user.name
 
 
 =link_to "Home",root_path
